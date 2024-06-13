@@ -47,15 +47,16 @@ body {
     width: 100%;
     z-index: 101;
 }
-.header_container {
-    max-width: 1740px;
-    padding: 15px 20px;
+.header .container {
+    /* max-width: 1740px;
+    
     margin: 0 auto;
-    width: 100%;
+    width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 52px;
+    padding: 15px 20px;
 }
 
 .header_left {
@@ -324,6 +325,10 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+.footer_logo img {
+    width: 60px;
+    height: auto;
 }
 .footer_logo span {
     font-size: 26px;
