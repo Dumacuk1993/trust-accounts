@@ -147,6 +147,7 @@ body {
 .poster_title {
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
 }
 
 .poster_description {
@@ -292,7 +293,12 @@ body {
     align-items: center;
     height: 100%;
 }
-
+.product_psc span {
+    color: #0b0d17;
+    margin-right: 4px;
+    font-weight: 500;
+    display: none;
+}
 .about {
     background: #e3eaf3;
     color: #7287a7;
